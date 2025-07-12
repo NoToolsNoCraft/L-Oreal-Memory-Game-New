@@ -323,3 +323,10 @@ body {
         gap: 6px;
     }
 }
+
+/* Standard 1366x768 Screens */
+@media (min-width: 1366px) and (max-width: 1400px) {
+  .container {
+    width: 50vw !important;
+  }
+}
