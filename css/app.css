@@ -17,7 +17,7 @@ body {
 
 .container {
     max-width: 500px;
-    width: 100%;
+    width: 50vh;
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
@@ -324,9 +324,4 @@ body {
     }
 }
 
-/* Standard 1366x768 Screens */
-@media (min-width: 1366px) and (max-width: 1400px) {
-  .container {
-    width: 50vh !important;
-  }
-}
+
